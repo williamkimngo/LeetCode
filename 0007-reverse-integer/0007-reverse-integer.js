@@ -13,3 +13,30 @@ var reverse = function(x) {
     }
     return output; // returning the result
 };
+
+// we are actually going to make the number work like a string without converting it to a string using mathematical equations.
+
+// things to keep in mind:
+
+// To find the last digit of a number, do as below:
+// number % 10
+
+// example:
+// 123 % 10 = 3,
+// 28 % 10 = 8
+
+// To insert a digit to the number, do as below:
+// (number * 10) + digit
+
+// example:
+// suppose we need insert digit 4 into the number 123,
+// (123 * 10) + 4 = 1234
+
+// By just using these two simple mathematical equations, we can do reverse the integer.
+
+// Complexity
+// Time complexity:
+// O(n)
+
+// Space complexity:
+// O(1)
